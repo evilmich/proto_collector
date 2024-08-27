@@ -4,7 +4,7 @@ package collector_proto;
 
 option go_package = "/";
 
-service Greeter {
+service Collector {
   rpc GetUser (Request) returns (Response);
 }
 
